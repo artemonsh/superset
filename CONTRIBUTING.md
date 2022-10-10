@@ -723,7 +723,7 @@ rather than,
 blueprints = app.config.get("BLUEPRINTS")
 ```
 
-or similar as the later will cause typing issues. The former is of type `List[Callable]` whereas the later is of type `Optional[List[Callable]]`.
+or similar as the latter will cause typing issues. The former is of type `List[Callable]` whereas the latter is of type `Optional[List[Callable]]`.
 
 ## Typing
 
